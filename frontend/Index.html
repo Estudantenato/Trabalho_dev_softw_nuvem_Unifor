@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Don's Barbearia</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+    <link rel="icon"  type="image/x-ico" href="/frontend/assets/hairstyle-_1_.ico">
+</head>
+<body>
+   
+    <header>
+        <h1>Don's Barbearia</h1>
+    </header>
+    <main>
+        
+        <!-- Botão do WhatsApp -->
+        <a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank">
+            WhatsApp
+        </a>
+
+        <!-- Seção de Agendamento e Tabela de Preços -->
+        <div class="container">
+            
+            <section id="agendamento">
+                <h2>Agendar Horário</h2>
+                <form id="formAgendamento">
+                    <input type="text" id="nome" placeholder="Seu nome completo" required>
+                    <div id="avisoNome" class="aviso"></div> <!-- Aviso de validação do nome -->
+                    <select id="servico" required>
+                        <option value="" disabled selected>Selecione um serviço</option>
+                        <option value="Corte Social">Corte Social - R$ 30,00</option>
+                        <option value="Corte e Barba">Corte e Barba - R$ 50,00</option>
+                        <option value="Corte, Barba e Sobrancelha">Corte, Barba e Sobrancelha - R$ 60,00</option>
+                        <option value="Corte na Tesoura">Corte na Tesoura - R$ 40,00</option>
+                    </select>
+                    <input type="date" id="data" required>
+                    <select id="horario" required>
+                        <option value="" disabled selected>Selecione um horário</option>
+                        <option value="09:30">09:30</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:15">10:15</option>
+                        <option value="10:30">10:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:30">11:30</option>
+                        <option value="13:00">13:00</option>
+                        <option value="13:15">13:15</option>
+                        <option value="13:30">13:30</option>
+                        <option value="14:00">14:00</option>
+                        <option value="14:15">14:15</option>
+                        <option value="14:30">14:30</option>
+                        <option value="15:00">15:00</option>
+                        <option value="15:15">15:15</option>
+                        <option value="15:30">15:30</option>
+                        <option value="16:00">16:00</option>
+                        <option value="16:15">16:15</option>
+                        <option value="16:30">16:30</option>
+                        <option value="17:00">17:00</option>
+                        <option value="17:15">17:15</option>
+                        <option value="17:30">17:30</option>
+                    </select>
+                    <button type="submit">Agendar</button>
+                </form>
+                <div id="avisoHorario" class="aviso"></div> <!-- Aviso de horário -->
+            </section>
+
+            <!-- Tabela de Preços -->
+            <section id="tabelaPrecos">
+                <h2>Tabela de Preços</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Corte Social</td>
+                            <td>R$ 30,00</td>
+                        </tr>
+                        <tr>
+                            <td>Corte e Barba</td>
+                            <td>R$ 50,00</td>
+                        </tr>
+                        <tr>
+                            <td>Corte, Barba e Sobrancelha</td>
+                            <td>R$ 60,00</td>
+                        </tr>
+                        <tr>
+                            <td>Corte na Tesoura</td>
+                            <td>R$ 40,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+        <!-- Seção Sobre Nós -->
+        <section class="sobre-nos">
+            <h2>Sobre Nós</h2>
+            <p>
+                A Don's Barbearia é um espaço tradicional que oferece serviços de qualidade para homens que buscam estilo e cuidado pessoal. 
+                Com uma equipe de profissionais experientes, garantimos a melhor experiência para nossos clientes.
+            </p>
+        </section>
+
+        <!-- Seção de Localização -->
+        <section class="localizacao">
+            <h2>Localização</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31851.20679528446!2d-38.5488281!3d-3.7224448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1742667682913!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Don's Barbearia. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>

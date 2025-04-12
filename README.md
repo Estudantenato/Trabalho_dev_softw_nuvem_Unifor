@@ -1,7 +1,10 @@
 
 # Sistema de marcação de Horario de barbearia
 
-![Banner do Projeto](https://via.placeholder.com/800x300?text=Loja+Infantil) <!-- Substitua por uma imagem real -->
+![print_tela_barbearia](https://github.com/user-attachments/assets/21461745-05d8-4740-a7e9-781d3b31aa4d)
+
+
+
 
 Um projeto de sistema de  marcação de horario para barbearia , desenvolvido com tecnologias front-end básicas.
 

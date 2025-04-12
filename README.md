@@ -14,7 +14,7 @@ Um projeto de sistema de  marcação de horario para barbearia , desenvolvido co
 ##  Deploy
 
 O projeto está hospedado no Vercel:  
-[🔗 Acessar Loja Virtual](https://sua-url-da-vercel.com) <!-- Substitua pelo seu link real -->
+[🔗 Acessar Loja Virtual](https://trabalho-dev-softw-nuvem-unifor.vercel.app/) <!-- Substitua pelo seu link real -->
 
 ##  Descrição do Projeto
 
